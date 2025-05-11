@@ -2,6 +2,8 @@ tBot
 
 A Telegram bot for controlling traffic light signals using GPIO pins on a Raspberry Pi.
 
+telegramBotname: t.me/dshp_bot or you can try: @promGo_bot
+
 Prerequisites
 
 Raspberry Pi with GPIO access
