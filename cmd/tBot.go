@@ -16,7 +16,7 @@ import (
 
 var (
 	//TelegramBot Token
-	TeleToken = os.Getenv("Tele_Token")
+	TeleToken = os.Getenv("TELE_TOKEN")
 )
 
 // tBotCmd represents the tBot command
