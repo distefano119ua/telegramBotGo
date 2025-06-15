@@ -1,7 +1,5 @@
-#APP := $(shell basename $(shell git remote get-url origin))
-#LOWER_APP := $(shell echo $(APP) | tr '[:upper:]' '[:lower:]')
 REGISTRY := distefano119/tbot
-VERSION=$(shell git describe --tags --abbrev=0)#-$(shell git rev-parse --short HEAD)
+VERSION=$(shell git describe --tags --abbrev=0)
 TARGETOS=linux #darwin windows
 TARGETARCH=arm64 #amd64 if you have macOS: dpkg --print-architecture | cut -d'-' -f2
 
